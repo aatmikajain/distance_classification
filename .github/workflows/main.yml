@@ -16,7 +16,10 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install numpy pandas scikit-learn jupyter
+          pip install numpy pandas scikit-learn jupyter wandb matplotlib opencv-python Pillow
 
       - name: Run Test Script
         run: python test_script.py
+
+      - name: Run jupyter notebook
+        run: jupyter execute Lab 5-Spring 2025 (1) (1).ipynb
