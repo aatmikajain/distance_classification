@@ -21,37 +21,27 @@ Distance-based classification algorithms have various real-world applications, i
 ## 3. Explanation of Various Distance Metrics
 
 ### **1. Euclidean Distance**
-\[
-d(x, y) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}
-\]
+
 - Measures the direct line distance between two points.
 - Best suited for continuous numerical data.
 
 ### **2. Manhattan Distance (Taxicab or L1 Distance)**
-\[
-d(x, y) = \sum_{i=1}^{n} |x_i - y_i|
-\]
+
 - Measures the distance along grid-like paths.
 - Used in cases where movement is restricted to horizontal and vertical directions.
 
 ### **3. Minkowski Distance**
-\[
-d(x, y) = \left( \sum_{i=1}^{n} |x_i - y_i|^p \right)^{\frac{1}{p}}
-\]
+
 - When \( p = 1 \), it becomes Manhattan Distance.
 - When \( p = 2 \), it becomes Euclidean Distance.
 
 ### **4. Cosine Similarity**
-\[
-\text{similarity}(A, B) = \frac{A \cdot B}{||A|| ||B||}
-\]
+
 - Measures the cosine of the angle between two vectors.
 - Commonly used in NLP and text processing.
 
 ### **5. Hamming Distance**
-\[
-d(x, y) = \sum_{i=1}^{n} I(x_i \neq y_i)
-\]
+
 - Measures the number of positions with differing elements.
 - Used for categorical and binary data.
 
