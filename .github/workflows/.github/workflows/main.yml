@@ -1,0 +1,26 @@
+name: Run Tests
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          pip install numpy pandas scikit-learn jupyter wandb matplotlib opencv-python
+
+      - name: Run Test Script
+        run: python test_script.py
+
+      - name: Run jupyter notebook
+        run: jupyter execute Lab 5-Spring 2025 (1) (1).ipynb
+
