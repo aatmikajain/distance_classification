@@ -84,6 +84,12 @@ Variance refers to the sensitivity of the model to small fluctuations in the tra
 - A **small \( k \) (e.g., 1-5)** leads to **high variance** and low bias.
 - A **large \( k \) (e.g., 20-50)** leads to **high bias** and low variance.
 - The optimal \( k \) balances both bias and variance.
+### **WANDB DASHBOARD**
+![image](https://github.com/user-attachments/assets/fee3185c-6dab-474f-af88-d44772ad4882)
+![image](https://github.com/user-attachments/assets/1342d4dd-a198-4125-8b1e-82ca389825a7)
+![image](https://github.com/user-attachments/assets/05432d46-3670-4abf-90be-702ceca5c046)
+
+
 
 ---
 
